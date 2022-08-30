@@ -6,7 +6,6 @@
 
 body{
     background-image: url(./assets/bg-min.jpg);
-    min-width: 460px;
 }
 
 footer{
@@ -82,4 +81,24 @@ a{
 
 .smallNums{
     display: flex;
+}
+
+@media (max-width : 500px) {
+
+    .inner__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .numbers{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .spacer{
+        display: none;
+    }
+
 }
