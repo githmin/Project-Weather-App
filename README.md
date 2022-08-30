@@ -8,6 +8,7 @@ weather API to get my required weather data.
 
 Vanilla JS, CSS & HTML was used to develop this Project and I have also used webpack on this project.
 
+NOTE :  Responsive design was not in mind while designing this.
 
 ## Demo 🔗
 
