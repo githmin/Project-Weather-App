@@ -6,6 +6,7 @@
 
 body{
     background-image: url(./assets/bg-min.jpg);
+    min-width: 460px;
 }
 
 footer{
@@ -65,9 +66,8 @@ a{
 
 }
 
-.subz{
-    flex-direction: column;
-
+.sub{
+    margin-top: 20px;
 }
 
 
