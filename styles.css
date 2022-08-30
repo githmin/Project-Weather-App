@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(./assets/bg-min.jpg);
+}
+
+footer{
+    bottom: 0;
+    position: absolute;
+    padding: 20px;
+    color: black;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: white;
+
+}
+
+.intake{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+    background-color: transparent;
+    color: white;
+}
+.search{
+    display: flex;
+}
+.btn{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+    display: flex;
+}
+
+.spacer{
+    font-size: 6rem;
+    margin: 10px;
+
+}
+
+.subz{
+    flex-direction: column;
+
+}
+
+
+.locationName{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    flex-direction: row;
+    display: flex;
+}
